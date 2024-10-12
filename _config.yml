@@ -1,36 +1,35 @@
-# Welcome to Jekyll!
+# Добро пожаловать в Jekyll!
 #
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve -l -H localhost`. If you change this file, please restart the 
-# server process.
+# Этот конфигурационный файл предназначен для настроек, которые влияют на весь ваш сайт, значений,
+# которые вы, как правило, настраиваете один раз и редко редактируете в дальнейшем.
+# По техническим причинам этот файл *НЕ* перезагружается автоматически при использовании
+# `jekyll serve -l -H localhost`. Если вы изменили этот файл, перезапустите процесс сервера.
 
 # Basic Site Settings
 locale                   : "en-US"
 title                    : "Denis Zagitov"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
-url                      : https://DenisZagitov.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
+name                     : &name "Denis Zagitov"
+description              : &description "Опытный архитектор данных, специализирующийся на масштабируемых платформах данных и интеграциях ИИ."
+url                      : https://DenisZagitov.github.io # основной URL и протокол вашего сайта, например: "https://mmistakes.github.io"
+baseurl                  : "" # подкаталог вашего сайта, например: "/blog"
 repository               : "DenisZagitov/DenisZagitov.github.io"
 
-# Site Author - The following control what appear as part of the author content on the side bar.
-#               If a field is blank the icon and link will not appear, otherwise it will be shown.
-#               Additional customization can be done by editing /_includes/author-profile.html
+# Автор сайта - следующие параметры управляют отображением информации об авторе в боковой панели.
+#               Если поле пустое, значок и ссылка не будут отображаться, иначе они будут показаны.
+#               Дополнительная настройка возможна путем редактирования /_includes/author-profile.html
 author:
-  # Biographic information
+  # Биографическая информация
   avatar           : "profile.png"
-  name             : "Denis Zagitov"
-  pronouns         : "Денис Загитов"  
+  name             :
+  pronouns         : "Денис Загитов"
   bio              : "Data architect"
   location         : "Russia"
   employer         : "Tomsk State University of Control Systems and Radioelectronics"
   uri              : # URL
   email            : "deniszagitov@gmail.com" 
 
-  # Academic websites
+  # Академические сайты
   arxiv            : "DenisZagitov"
   googlescholar    : # "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
   impactstory      : # URL
@@ -39,16 +38,12 @@ author:
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
 
-  # Repositories and software development
-  bitbucket        : # Username - Update with your username on the site
-  codepen          : # Username
-  dribbble         : # Username
+  # Репозитории и разработка ПО
   github           : "DenisZagitov"
   kaggle           : "deniszagitov"  
   stackoverflow    : "13422777/denis-zagitov"
 
-  # Social media
-  bluesky          : # "bsky.app" # Replace this with you Bluesky username
+  # Социальные сети
   facebook         : "zagitovdenis"
   flickr           : # Username
   foursquare       : # Username
@@ -56,13 +51,13 @@ author:
   google_plus      : # Username
   keybase          : # Username
   instagram        : "deniszagitov"
-  lastfm           : # Username
+  lastfm           : "DenisZagitov"
   linkedin         : "deniszagitov"
   mastodon         : # URL
-  medium           : # URL
+  medium           : "deniszagitov"
   pinterest        : # Username
   soundcloud       : # Username
-  steam            : # Username
+  steam            : "76561198122863389"
   telegram         : "DenisZagitov"
   tumblr           : # Username
   twitter          : "deniszagitov"
@@ -73,22 +68,22 @@ author:
   youtube          : "YoYoVsemPrivet"
   zhihu            : # Username
 
-# Publication Category - The following the list of publication categories and their headings
+# Категории публикаций - список категорий публикаций и их заголовков
 publication_category:
   books:
-    title: 'Books'
+    title: 'Книги'
   manuscripts:
-    title: 'Journal Articles'    
+    title: 'Журнальные статьи'
   conferences:
-    title: 'Conference Papers'
+    title: 'Доклады на конференциях'
 
-# Site Settings
-teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
-breadcrumbs              : true # true, false (default)
+# Настройки сайта
+teaser                   :  # файл изображения тизера, находящийся в /images/, например: "500x300.png"
+breadcrumbs              : true # true, false (по умолчанию)
 words_per_minute         : 160
 future                   : true
-read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
-talkmap_link             : true #change to true to add link to talkmap on talks page
+read_more                : "enabled" # если включено, добавляет ссылки "Читать далее" к отрывкам
+talkmap_link             : true # измените на true, чтобы добавить ссылку на talkmap на странице выступлений
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
@@ -116,7 +111,7 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
-  hide                   : false     # change to true to hide the RSS feed in the footer
+  hide                   : true     # change to true to hide the RSS feed in the footer
   path                   : # blank (default) uses feed.xml
 
 
@@ -134,8 +129,8 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Open Graph/Twitter default site image
-# For specifying social profiles
+og_image                 :  # изображение по умолчанию для Open Graph/Twitter
+# Для указания социальных профилей
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
   type                   : # Person or Organization (defaults to Person)
@@ -143,14 +138,14 @@ social:
   links: # An array of links to social media profiles
 
 
-# Analytics
+# Аналитика
 analytics:
   provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
   google:
     tracking_id          :
 
 
-# Reading Files
+# Чтение файлов
 include:
   - .htaccess
   - _pages
@@ -189,7 +184,7 @@ encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 
-# Conversion
+# Конвертация
 markdown: kramdown
 highlighter: rouge
 lsi: false
@@ -197,7 +192,7 @@ excerpt_separator: "\n\n"
 incremental: false
 
 
-# Markdown Processing
+# Обработка Markdown
 kramdown:
   input: GFM
   hard_wrap: false
@@ -209,7 +204,7 @@ kramdown:
   enable_coderay: false
 
 
-# These settings control the types of collections used by the template
+# Эти настройки управляют типами коллекций, используемых шаблоном
 collections:
   teaching:
     output: true
@@ -225,7 +220,7 @@ collections:
     permalink: /:collection/:path/
 
 
-# These settings control how pages and collections are included in the site
+# Эти настройки управляют включением страниц и коллекций на сайт
 defaults:
   # _posts
   - scope:
