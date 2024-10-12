@@ -1,27 +1,17 @@
-# The following is the order of the links in the header of the website.
+# Ниже приведен порядок ссылок в заголовке сайта.
 #
-# Changing the order here will adjust the order and you can also add additional
-# links. Removing a link prevents it from showing in the header, but does not
-# prevent it from being included in the site.
+# Изменение порядка здесь изменит порядок в заголовке, и вы также можете добавить дополнительные
+# ссылки. Удаление ссылки предотвратит её отображение в заголовке, но не удалит её с сайта.
 
 main:
-  - title: "Publications"
-    url: /publications/
-
-  - title: "Talks"
-    url: /talks/    
-
-  - title: "Teaching"
-    url: /teaching/    
-    
-  - title: "Portfolio"
-    url: /portfolio/
-        
-  - title: "Blog Posts"
+  - title: "Блог"
     url: /year-archive/
-    
-  - title: "CV"
+
+  - title: "Резюме"
     url: /cv/
-    
-  - title: "Guide"
-    url: /markdown/
+
+  - title: "Портфолио"
+    url: /portfolio/
+
+  - title: "Выступления"
+    url: /talks/      

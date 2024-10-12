@@ -6,7 +6,7 @@
 # `jekyll serve -l -H localhost`. Если вы изменили этот файл, перезапустите процесс сервера.
 
 # Basic Site Settings
-locale                   : "en-US"
+locale                   : "ru-RU"
 title                    : "Denis Zagitov"
 title_separator          : "-"
 name                     : &name "Denis Zagitov"
@@ -79,11 +79,11 @@ publication_category:
 
 # Настройки сайта
 teaser                   :  # файл изображения тизера, находящийся в /images/, например: "500x300.png"
-breadcrumbs              : true # true, false (по умолчанию)
+breadcrumbs              : false # true, false (по умолчанию)
 words_per_minute         : 160
 future                   : true
-read_more                : "enabled" # если включено, добавляет ссылки "Читать далее" к отрывкам
-talkmap_link             : true # измените на true, чтобы добавить ссылку на talkmap на странице выступлений
+read_more                : "disabled" # если включено, добавляет ссылки "Читать далее" к отрывкам
+talkmap_link             : false # измените на true, чтобы добавить ссылку на talkmap на странице выступлений
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
@@ -194,7 +194,7 @@ incremental: false
 
 # Обработка Markdown
 kramdown:
-  input: GFM
+  input: GFM # https://github.github.com/gfm/
   hard_wrap: false
   auto_ids: true
   footnote_nr: 1

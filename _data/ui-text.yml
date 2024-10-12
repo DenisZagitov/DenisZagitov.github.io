@@ -350,5 +350,47 @@ zh-HK: &DEFAULT_ZH_HK
 zh-TW:
   <<: *DEFAULT_ZH_HK
 
+# Russian
+# -----------------
+ru: &DEFAULT_RU
+  page                       : "Страница"
+  pagination_previous        : "Предыдущая"
+  pagination_next            : "Следующая"
+  breadcrumb_home_label      : "Главная"
+  breadcrumb_separator       : "/"
+  toc_label                  : "На этой странице"
+  ext_link_label             : "Прямая ссылка"
+  less_than                  : "меньше чем"
+  minute_read                : "минут чтения"
+  share_on_label             : "Поделиться на"
+  meta_label                 :
+  tags_label                 : "Теги:"
+  categories_label           : "Категории:"
+  date_label                 : "Опубликовано:"
+  comments_label             : "Оставить комментарий"
+  comments_title             : "Комментарии"
+  more_label                 : "Подробнее"
+  related_label              : "Вам также может понравиться"
+  follow_label               : "Подписаться:"
+  feed_label                 : "Лента"
+  powered_by                 : "Работает на"
+  website_label              : "Сайт"
+  email_label                : "Эл. почта"
+  recent_posts               : "Недавние публикации"
+  undefined_wpm              : "Неопределенный параметр words_per_minute в _config.yml"
+  comment_form_info          : "Ваш адрес электронной почты не будет опубликован. Обязательные поля отмечены"
+  comment_form_comment_label : "Комментарий"
+  comment_form_md_info       : "Поддерживается Markdown."
+  comment_form_name_label    : "Имя"
+  comment_form_email_label   : "Электронная почта"
+  comment_form_website_label : "Сайт (необязательно)"
+  comment_btn_submit         : "Отправить комментарий"
+  comment_btn_submitted      : "Отправлено"
+  comment_success_msg        : "Спасибо за ваш комментарий! Он появится на сайте после одобрения."
+  comment_error_msg          : "Извините, произошла ошибка при отправке. Пожалуйста, убедитесь, что все обязательные поля заполнены, и попробуйте снова."
+  loading_label              : "Загрузка..."
+ru-RU:
+  <<: *DEFAULT_RU
+
 # Another locale
 # --------------
