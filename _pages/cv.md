@@ -11,35 +11,38 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+- **Tomsk State University of Control Systems and Radioelectronics**  
+  _Bachelor’s degree, Software for Computer Engineering and Automated Systems, 2019 – 2024_
+- **Siberian Regional Business School**  
+  _Computer Engineering and Automated Systems, 2007 – 2011_
+- **Yugra State University**  
+  _Economics and Accounting, 2007 – 2010_
+
+Certifications
+======
+- Microsoft Office Specialist
+- Learn Python 2
+- Low-code Data Analytics
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+### **SberEducation**  
+**Data Architect**  
+- Designed scalable data platform architecture using Greenplum.
+- Implemented Data Vault 2.0 and led data lifecycle control discussions.  
+_Technologies: Greenplum, Clickhouse, Kafka, Airflow, Kubernetes._
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+### **Gazprom Neft**  
+**Lead of IT Architecture**  
+- Developed architecture for critical monitoring solutions.
+- Ensured compliance with data governance strategies.  
+_Technologies: Python, Java, ClickHouse, Greenplum._
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+- Domain Architecture
+- Data Management
+- SQL, Python, Java, Kubernetes
 
 Publications
 ======
